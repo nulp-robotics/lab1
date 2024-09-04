@@ -5,9 +5,6 @@ import os
 import numpy as np
 
 from config import config
-from tasks import task_2, task_3, task_1, task_4, task_5, task_6, task_7
-
-from rotation_renderer import RotationRenderer, SequentialRotationRenderer, TransformRenderer, SequentialTransformRenderer
 
 if __name__ == "__main__":
     physicsClient = p.connect(p.GUI)  # or p.DIRECT
